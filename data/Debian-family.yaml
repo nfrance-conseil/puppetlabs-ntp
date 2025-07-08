@@ -10,3 +10,4 @@ ntp::servers:
   - '2.debian.pool.ntp.org'
   - '3.debian.pool.ntp.org'
 ntp::config: '/etc/ntpsec/ntp.conf'
+ntp::package_name: [ 'ntpsec' ]
